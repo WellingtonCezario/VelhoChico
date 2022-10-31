@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+
+* {margin:0px
+padding 0px;
+
+}
+
+:root {
+--CorDoFundoDoSite: #353335;
+--CorDaLinhaNumero1: rgb(100, 23, 23);
+--CorDoCabeçário:#3d8b16;
+--CorDasDecorações: #DA534F;
+--Cor-Do-Titulo1: #fff;
+--Cor-Principal: #e47818;
+}
+
+
+#ImagemNumero1 { 
+    border-radius: 1.8em ;
+    box-shadow: 1px 1px 1px 3.5px;
+}
+body{ margin: 0%;
+    padding: 0%;
+    background-color:var(--CorDoFundoDoSite) ;
+}
+
+#link1 {
+    color: rgba(0, 0, 0, 0.428);
+}
+.Menu { max-width: 200px;
+    border: 1px solid#76B6BD ;
+    border-radius: 2px;
+}
+
+
+#Cabeçário {
+    text-align: center;
+    font-family: Realist;
+    font-size: 4em;
+    font-style: normal;
+    font-weight: normal;
+    color: var(--Cor-Do-Titulo1) ;
+    text-decoration: underline;
+    text-decoration-color:  #4B9D50;
+}
+nav > .Menu { list-style: none;
+    color: #333333;
+    display: inline-block;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+padding: 12px 8px;
+margin: 4px 10px;
+    text-decoration: none;
+    zoom: 0;
+    letter-spacing: 1px;
+    max-width: 800px;
+    min-width: 300px;
+
+}
+nav { background-color:  var(--Cor-Principal);
+    text-align: center;
+    padding-bottom: 18px;
+    padding-top: 12px;
+}
+nav > .Menu:hover { transition: 0.4s;
+    color:#F3DE88 ;
+    background-color: #76B6BD;
+  
+}
+p {
+    text-align: center;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    font-weight: light;
+    letter-spacing: 0.4px;
+}
+#Menu2 {
+    background-color: transparent;
+    margin-top: 3.1em;
+}
+.Menu2Links { 
+    background-color: rgba(255, 255, 255, 0.076);
+    padding: 12px 24px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: 600;
+ text-transform: uppercase;
+ text-decoration: none;
+ border: 1px solid rgba(255, 255, 255, 0.332);
+ margin: 5em 6px;
+ border-radius: 3.4px;
+}
+.Menu2Links:hover {
+    background-color:#DD9933 ;
+    transition: 0.6s;
+
+}
+#Serra-Da-Canastra {
+    color: #fff;
+    text-decoration: none;
+}
+#Serra-Da-Canastra:hover {
+    color: #F3DE88;
+    transition: 0.8s;
+}
+main {
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+}
+header {
+    background-color: var(--Cor-Principal);
+    margin: 0px;
+    padding: 0%;
+ 
+    height: 120px;
+    padding-top: 16px;
+}
+header img { border-radius: 32px;
+    box-shadow: 0px 0px 1px 4px rgb(139, 53, 0);
+    margin: auto;
+    padding: auto;
+    display: block;
+   
+}
+@media screen and (max-width: 500px) 
+{ Nav >.Menu { border: solid #F3DE88;
+text-decoration: underline;
+border: none;
+min-width: 460px;
+padding: 8px 6.5px;
+margin: auto;
+text-align: left;
+font-size:12px;
+display:inline;
+
+
+}
+header { margin: auto;
+    height: 40px;
+    width: auto;
+    padding: auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    max-width: 600px;
+    min-width: 300px;
+}
+#Navegacao-Principal {  margin: auto;
+max-width: 600px;
+    min-width: 300px;
+    columns: 4;
+font-family:  'Nova Mono', monospace;
+    text-align: center;
+    font-size: 2px;
+    line-height: 32px;
+    line-break: auto;
+    display: block;
+    
+}
+#Cabeçário { margin:auto ;
+    font-size: 3em;
+    padding-top: 12px;
+}
+#Tema1 { text-align: justify;
+    margin: 28px;
+   font-size: 1px;
+}
+ #Menu2 { font-size: 12px;
+    padding: 1px;
+}
+#Logo-Do-Velho-Chico {
+    margin: auto;
+    padding: auto;
+    display: block;
+   
+}
+ Nav > .Menu {
+    letter-spacing: 0.1px;
+
+}
+}
