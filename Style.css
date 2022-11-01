@@ -23,9 +23,23 @@ padding 0px;
 --Cor-Principal: #e47818;
 }
 
-#Parallax {
-    background-image: url(Fundo-do-site.jpg);
+#Parallax { margin: auto;
+    padding: auto;
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 77%;
+    left: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
 
+display: block;
+position: absolute;
+    background-image: url(Restaurante_Velho_Chico_São_Roque_de_Minas_MG_Serra_da_Canastra_.png);
+
+}
+#principal {
+    background-color: var(--CorDoFundoDoSite);
 }
 #ImagemNumero1 { 
     border-radius: 1.8em ;
@@ -33,7 +47,7 @@ padding 0px;
 }
 body{ margin: 0%;
     padding: 0%;
-    background-color:var(--CorDoFundoDoSite) ;
+    
 }
 
 #link1 {
@@ -44,11 +58,19 @@ body{ margin: 0%;
     border-radius: 2px;
 }
 
-
-#Cabeçário { 
+#Transparente {
+    background-color: #33333310;
+    width: fit-content;
+    margin: auto;
+    padding: auto;
+    border-radius: 25px;
+    box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.281);
+}
+#Cabeçário {  text-shadow: 2px 1px  black;
+    background-color: #33333311;
     text-align: center;
-    font-family: Raleway, Arial, Helvetica, Sans-serif,Realist;
-    font-size: 4em;
+    font-family: Realist, Raleway, Arial, Helvetica, Sans-serif;
+    font-size: 5em;
     font-style: normal;
     font-weight: normal;
     color: var(--Cor-Do-Titulo1) ;
@@ -59,7 +81,7 @@ body{ margin: 0%;
  content: normal 'Meu Site';
  animation: alternate;
  background-image: linear-gradient(to bottom, rgb(78, 6, 6) rgb(70, 70, 146));
-text-shadow: 5px 1px 12px #da966223;
+text-shadow: 2px 1px black;
 }
 nav > .Menu { list-style: none;
     color: #333333;
@@ -86,6 +108,7 @@ nav > .Menu:hover { transition: 0.4s;
     box-shadow: 1px 1px 4px 1px #3d8b16be  ;
     color:#F3DE88 ;
     background-color: #76B6BD;
+    text-shadow: 2px 1px black;;
   
 }
 p {
