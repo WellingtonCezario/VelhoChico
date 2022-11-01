@@ -200,3 +200,6 @@ font-family:  'Nova Mono', monospace;
 
 }
 }
+#Parallax {
+    background-image: url(Fundo-do-site.jpg);
+}
