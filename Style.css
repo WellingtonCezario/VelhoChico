@@ -23,7 +23,10 @@ padding 0px;
 --Cor-Principal: #e47818;
 }
 
+#Parallax {
+    background-image: url(Fundo-do-site.jpg);
 
+}
 #ImagemNumero1 { 
     border-radius: 1.8em ;
     box-shadow: 1px 1px 1px 3.5px;
@@ -44,7 +47,7 @@ body{ margin: 0%;
 
 #Cabeçário { 
     text-align: center;
-    font-family: Realist;
+    font-family: Raleway, Arial, Helvetica, Sans-serif,Realist;
     font-size: 4em;
     font-style: normal;
     font-weight: normal;
@@ -199,7 +202,4 @@ font-family:  'Nova Mono', monospace;
     letter-spacing: 0.1px;
 
 }
-}
-#Parallax {
-    background-image: url(Fundo-do-site.jpg);
 }
