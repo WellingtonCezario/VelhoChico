@@ -42,7 +42,7 @@ body{ margin: 0%;
 }
 
 
-#Cabeçário {
+#Cabeçário { 
     text-align: center;
     font-family: Realist;
     font-size: 4em;
@@ -51,6 +51,12 @@ body{ margin: 0%;
     color: var(--Cor-Do-Titulo1) ;
     text-decoration: underline;
     text-decoration-color:  #4B9D50;
+}
+#Cabeçário:hover {cursor: pointer;
+ content: normal 'Meu Site';
+ animation: alternate;
+ background-image: linear-gradient(to bottom, rgb(78, 6, 6) rgb(70, 70, 146));
+text-shadow: 5px 1px 12px #da966223;
 }
 nav > .Menu { list-style: none;
     color: #333333;
@@ -74,6 +80,7 @@ nav { background-color:  var(--Cor-Principal);
     padding-top: 12px;
 }
 nav > .Menu:hover { transition: 0.4s;
+    box-shadow: 1px 1px 4px 1px #3d8b16be  ;
     color:#F3DE88 ;
     background-color: #76B6BD;
   
